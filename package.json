@@ -1,0 +1,21 @@
+{
+  "name": "warnlock",
+  "version": "0.1.0",
+  "description": "Record existing Node.js warnings and fail CI only when new warnings are introduced.",
+  "license": "Unlicense",
+  "bin": {
+    "warnlock": "./bin/warnlock.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
